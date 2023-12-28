@@ -19,7 +19,7 @@ public class Helper {
 	{
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String screenShotPath= "./Screenshots//"+Helper.getCurrentDateTime()+".png";
+		String screenShotPath= "./Screenshots//"+Helper.getCurrentDateTime()+".jpeg";
 		try {
 			Files.copy(src, new File(screenShotPath));
 		} catch (IOException e) {
