@@ -9,14 +9,9 @@ import com.app.utilities.BrowserFactory;
 import com.app.utilities.ExcelDataProvider;
 import com.app.utilities.Helper;
 
-public class TestCase extends BaseTest {
+public class AddMerchant extends BaseTest {
 	@Test
-	public void loginApp()
-	{
-		login();
-	}
-	@Test
-	public void loginApp1()
+	public void C_001_isPSPfunctionality()
 	{
 		
 	}
