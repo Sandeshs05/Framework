@@ -9,7 +9,7 @@ import com.app.utilities.BrowserFactory;
 import com.app.utilities.ExcelDataProvider;
 import com.app.utilities.Helper;
 
-public class AddMerchant extends BaseTest {
+public class Addmerchnat extends BaseTest {
 	@Test
 	public void C_001_isPSPfunctionality()
 	{
