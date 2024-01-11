@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="Hybrid" />
+          <option value="Hybrid" />
+          <option value="Hybrid" />
+          <option value="Hybrid" />
+          <option value="Hybrid" />
+          <option value="Hybrid" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.google.guava:guava:31.1-jre" />
+          <option value="org.webjars:jquery:3.6.1" />
+          <option value="io.netty:netty-handler:4.1.92.Final" />
+          <option value="com.google.code.gson:gson:2.8.6" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.10.3" />
+          <option value="org.bouncycastle:bcprov-jdk15on:1.64" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
